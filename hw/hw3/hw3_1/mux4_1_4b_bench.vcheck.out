@@ -1,0 +1,14 @@
+Line 29: Bad keyword initial
+Line 31: begin without always/case
+Line 45: Bad keyword posedge
+Line 45: Always without case(x)
+Line 54: Bad keyword negedge
+Line 62: Bad keyword if
+Line 62: Bad keyword !==
+Line 64: Bad keyword if
+Line 64: Bad keyword !==
+Line 66: Bad keyword if
+Line 66: Bad keyword !==
+Line 68: Bad keyword if
+Line 68: Bad keyword !==
+End of file /u/v/a/van-der-weide/private/ECE552/hw3-NoahMattV/hw3_1/mux4_1_4b_bench.v. Hash = 1055269
