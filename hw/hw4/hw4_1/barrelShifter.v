@@ -145,21 +145,21 @@ module barrelShifter (In, Cnt, Op, Out);
 
 
    // final stage (flip back if left shift asserted)
-   mux2_1 mux2_f_15 (.InA(e[15]), .InB(e[0]), .S(Op[0]), .Out(Out[15]));
-   mux2_1 mux2_f_14 (.InA(e[14]), .InB(e[1]), .S(Op[0]), .Out(Out[14]));
-   mux2_1 mux2_f_13 (.InA(e[13]), .InB(e[2]), .S(Op[0]), .Out(Out[13]));
-   mux2_1 mux2_f_12 (.InA(e[12]), .InB(e[3]), .S(Op[0]), .Out(Out[12]));
-   mux2_1 mux2_f_11 (.InA(e[11]), .InB(e[4]), .S(Op[0]), .Out(Out[11]));
-   mux2_1 mux2_f_10 (.InA(e[10]), .InB(e[5]), .S(Op[0]), .Out(Out[10]));
-   mux2_1 mux2_f_9 (.InA(e[9]), .InB(e[6]), .S(Op[0]), .Out(Out[9]));
-   mux2_1 mux2_f_8 (.InA(e[8]), .InB(e[7]), .S(Op[0]), .Out(Out[8]));
-   mux2_1 mux2_f_7 (.InA(e[7]), .InB(e[8]), .S(Op[0]), .Out(Out[7]));
-   mux2_1 mux2_f_6 (.InA(e[6]), .InB(e[9]), .S(Op[0]), .Out(Out[6]));
-   mux2_1 mux2_f_5 (.InA(e[5]), .InB(e[10]), .S(Op[0]), .Out(Out[5]));
-   mux2_1 mux2_f_4 (.InA(e[4]), .InB(e[11]), .S(Op[0]), .Out(Out[4]));
-   mux2_1 mux2_f_3 (.InA(e[3]), .InB(e[12]), .S(Op[0]), .Out(Out[3]));
-   mux2_1 mux2_f_2 (.InA(e[2]), .InB(e[13]), .S(Op[0]), .Out(Out[2]));
-   mux2_1 mux2_f_1 (.InA(e[1]), .InB(e[14]), .S(Op[0]), .Out(Out[1]));
-   mux2_1 mux2_f_0 (.InA(e[0]), .InB(e[15]), .S(Op[0]), .Out(Out[0]));
+   mux2_1 mux2_f_15 (.InA(e[15]), .InB(e[0]), .S(Op[1]), .Out(Out[15]));
+   mux2_1 mux2_f_14 (.InA(e[14]), .InB(e[1]), .S(Op[1]), .Out(Out[14]));
+   mux2_1 mux2_f_13 (.InA(e[13]), .InB(e[2]), .S(Op[1]), .Out(Out[13]));
+   mux2_1 mux2_f_12 (.InA(e[12]), .InB(e[3]), .S(Op[1]), .Out(Out[12]));
+   mux2_1 mux2_f_11 (.InA(e[11]), .InB(e[4]), .S(Op[1]), .Out(Out[11]));
+   mux2_1 mux2_f_10 (.InA(e[10]), .InB(e[5]), .S(Op[1]), .Out(Out[10]));
+   mux2_1 mux2_f_9 (.InA(e[9]), .InB(e[6]), .S(Op[1]), .Out(Out[9]));
+   mux2_1 mux2_f_8 (.InA(e[8]), .InB(e[7]), .S(Op[1]), .Out(Out[8]));
+   mux2_1 mux2_f_7 (.InA(e[7]), .InB(e[8]), .S(Op[1]), .Out(Out[7]));
+   mux2_1 mux2_f_6 (.InA(e[6]), .InB(e[9]), .S(Op[1]), .Out(Out[6]));
+   mux2_1 mux2_f_5 (.InA(e[5]), .InB(e[10]), .S(Op[1]), .Out(Out[5]));
+   mux2_1 mux2_f_4 (.InA(e[4]), .InB(e[11]), .S(Op[1]), .Out(Out[4]));
+   mux2_1 mux2_f_3 (.InA(e[3]), .InB(e[12]), .S(Op[1]), .Out(Out[3]));
+   mux2_1 mux2_f_2 (.InA(e[2]), .InB(e[13]), .S(Op[1]), .Out(Out[2]));
+   mux2_1 mux2_f_1 (.InA(e[1]), .InB(e[14]), .S(Op[1]), .Out(Out[1]));
+   mux2_1 mux2_f_0 (.InA(e[0]), .InB(e[15]), .S(Op[1]), .Out(Out[0]));
 
 endmodule
