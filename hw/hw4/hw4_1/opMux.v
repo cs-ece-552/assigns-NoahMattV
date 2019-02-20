@@ -12,7 +12,7 @@ module opMux (InA, InB, Op, Out);
 
   wire a;
 
-  mux2_1 mux2_a (.InA(1'b0), .InB(InA), .S(Op[0]), .Out(a));
-  mux2_1 mux2_b (.InA(InB), .InB(a), .S(Op[1]), .Out(Out));
+  mux2_1 mux2_a (.InA(InB), .InB(InA), .S(Op[1]), .Out(a));
+  mux2_1 mux2_b (.InA(1'b0), .InB(a), .S(Op[0]), .Out(Out));
 
 endmodule
