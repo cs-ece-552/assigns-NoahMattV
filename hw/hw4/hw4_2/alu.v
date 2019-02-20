@@ -15,7 +15,7 @@ module alu (A, B, Cin, Op, invA, invB, sign, Out, Zero, Ofl);
    // and operations (O)
    parameter    N = 16;
    parameter    O = 3;
-   
+
    input [N-1:0] A;
    input [N-1:0] B;
    input         Cin;
@@ -28,5 +28,9 @@ module alu (A, B, Cin, Op, invA, invB, sign, Out, Zero, Ofl);
    output         Zero;
 
    /* YOUR CODE HERE */
-    
+
+
+
+   assign Zero = Out | 16'b0000000000000000;
+
 endmodule
