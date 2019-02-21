@@ -1,0 +1,15 @@
+Line 16: Bad keyword initial
+Line 17: begin without always/case
+Line 27: Bad keyword posedge
+Line 27: Always without case(x)
+Line 34: Bad keyword negedge
+Line 36: Bad keyword if
+Line 37: Bad keyword if
+Line 38: Bad keyword if
+Line 39: Bad keyword if
+Line 43: Bad keyword if
+Line 43: Bad keyword !==
+Line 44: Bad keyword if
+Line 44: Bad keyword !==
+Line 34: Always without case(x)
+End of file /u/v/a/van-der-weide/private/ECE552/assigns-NoahMattV/hw/hw4/hw4_2/alu_1b_bench.v. Hash = 1167052386

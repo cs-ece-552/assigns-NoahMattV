@@ -1,0 +1,147 @@
+/afs/cs.wisc.edu/u/v/a/van-der-weide/private/ECE552/assigns-NoahMattV/hw/hw4/hw4_1/opMux.v {0 {vlog -work work -stats=none /afs/cs.wisc.edu/u/v/a/van-der-weide/private/ECE552/assigns-NoahMattV/hw/hw4/hw4_1/opMux.v
+Model Technology ModelSim DE vlog 10.7c Compiler 2018.08 Aug 17 2018
+-- Compiling module opMux
+** Error: /afs/cs.wisc.edu/u/v/a/van-der-weide/private/ECE552/assigns-NoahMattV/hw/hw4/hw4_1/opMux.v(16): (vlog-13282) 'mux2_1' already declared in this scope.
+
+} {4.0 5.0} {}} /afs/cs.wisc.edu/u/v/a/van-der-weide/private/ECE552/assigns-NoahMattV/hw/hw4/hw4_1/barrelShifter.v {0 {vlog -work work -stats=none /afs/cs.wisc.edu/u/v/a/van-der-weide/private/ECE552/assigns-NoahMattV/hw/hw4/hw4_1/barrelShifter.v
+Model Technology ModelSim DE vlog 10.7c Compiler 2018.08 Aug 17 2018
+-- Compiling module barrelShifter
+** Error: /afs/cs.wisc.edu/u/v/a/van-der-weide/private/ECE552/assigns-NoahMattV/hw/hw4/hw4_1/barrelShifter.v(35): (vlog-13282) 'mux2_1' already declared in this scope.
+** Error: /afs/cs.wisc.edu/u/v/a/van-der-weide/private/ECE552/assigns-NoahMattV/hw/hw4/hw4_1/barrelShifter.v(36): (vlog-13282) 'mux2_1' already declared in this scope.
+** Error: /afs/cs.wisc.edu/u/v/a/van-der-weide/private/ECE552/assigns-NoahMattV/hw/hw4/hw4_1/barrelShifter.v(37): (vlog-13282) 'mux2_1' already declared in this scope.
+** Error: /afs/cs.wisc.edu/u/v/a/van-der-weide/private/ECE552/assigns-NoahMattV/hw/hw4/hw4_1/barrelShifter.v(38): (vlog-13282) 'mux2_1' already declared in this scope.
+** Error: /afs/cs.wisc.edu/u/v/a/van-der-weide/private/ECE552/assigns-NoahMattV/hw/hw4/hw4_1/barrelShifter.v(39): (vlog-13282) 'mux2_1' already declared in this scope.
+** Error: /afs/cs.wisc.edu/u/v/a/van-der-weide/private/ECE552/assigns-NoahMattV/hw/hw4/hw4_1/barrelShifter.v(40): (vlog-13282) 'mux2_1' already declared in this scope.
+** Error: /afs/cs.wisc.edu/u/v/a/van-der-weide/private/ECE552/assigns-NoahMattV/hw/hw4/hw4_1/barrelShifter.v(41): (vlog-13282) 'mux2_1' already declared in this scope.
+** Error: /afs/cs.wisc.edu/u/v/a/van-der-weide/private/ECE552/assigns-NoahMattV/hw/hw4/hw4_1/barrelShifter.v(42): (vlog-13282) 'mux2_1' already declared in this scope.
+** Error: /afs/cs.wisc.edu/u/v/a/van-der-weide/private/ECE552/assigns-NoahMattV/hw/hw4/hw4_1/barrelShifter.v(43): (vlog-13282) 'mux2_1' already declared in this scope.
+** Error: /afs/cs.wisc.edu/u/v/a/van-der-weide/private/ECE552/assigns-NoahMattV/hw/hw4/hw4_1/barrelShifter.v(44): (vlog-13282) 'mux2_1' already declared in this scope.
+** Error: /afs/cs.wisc.edu/u/v/a/van-der-weide/private/ECE552/assigns-NoahMattV/hw/hw4/hw4_1/barrelShifter.v(45): (vlog-13282) 'mux2_1' already declared in this scope.
+** Error: /afs/cs.wisc.edu/u/v/a/van-der-weide/private/ECE552/assigns-NoahMattV/hw/hw4/hw4_1/barrelShifter.v(46): (vlog-13282) 'mux2_1' already declared in this scope.
+** Error: /afs/cs.wisc.edu/u/v/a/van-der-weide/private/ECE552/assigns-NoahMattV/hw/hw4/hw4_1/barrelShifter.v(47): (vlog-13282) 'mux2_1' already declared in this scope.
+** Error: /afs/cs.wisc.edu/u/v/a/van-der-weide/private/ECE552/assigns-NoahMattV/hw/hw4/hw4_1/barrelShifter.v(48): (vlog-13282) 'mux2_1' already declared in this scope.
+** Error: /afs/cs.wisc.edu/u/v/a/van-der-weide/private/ECE552/assigns-NoahMattV/hw/hw4/hw4_1/barrelShifter.v(49): (vlog-13282) 'mux2_1' already declared in this scope.
+** Error: /afs/cs.wisc.edu/u/v/a/van-der-weide/private/ECE552/assigns-NoahMattV/hw/hw4/hw4_1/barrelShifter.v(55): (vlog-13282) 'mux2_1' already declared in this scope.
+** Error: /afs/cs.wisc.edu/u/v/a/van-der-weide/private/ECE552/assigns-NoahMattV/hw/hw4/hw4_1/barrelShifter.v(56): (vlog-13282) 'mux2_1' already declared in this scope.
+** Error: /afs/cs.wisc.edu/u/v/a/van-der-weide/private/ECE552/assigns-NoahMattV/hw/hw4/hw4_1/barrelShifter.v(57): (vlog-13282) 'mux2_1' already declared in this scope.
+** Error: /afs/cs.wisc.edu/u/v/a/van-der-weide/private/ECE552/assigns-NoahMattV/hw/hw4/hw4_1/barrelShifter.v(58): (vlog-13282) 'mux2_1' already declared in this scope.
+** Error: /afs/cs.wisc.edu/u/v/a/van-der-weide/private/ECE552/assigns-NoahMattV/hw/hw4/hw4_1/barrelShifter.v(59): (vlog-13282) 'mux2_1' already declared in this scope.
+** Error: /afs/cs.wisc.edu/u/v/a/van-der-weide/private/ECE552/assigns-NoahMattV/hw/hw4/hw4_1/barrelShifter.v(60): (vlog-13282) 'mux2_1' already declared in this scope.
+** Error: /afs/cs.wisc.edu/u/v/a/van-der-weide/private/ECE552/assigns-NoahMattV/hw/hw4/hw4_1/barrelShifter.v(61): (vlog-13282) 'mux2_1' already declared in this scope.
+** Error: /afs/cs.wisc.edu/u/v/a/van-der-weide/private/ECE552/assigns-NoahMattV/hw/hw4/hw4_1/barrelShifter.v(62): (vlog-13282) 'mux2_1' already declared in this scope.
+** Error: /afs/cs.wisc.edu/u/v/a/van-der-weide/private/ECE552/assigns-NoahMattV/hw/hw4/hw4_1/barrelShifter.v(63): (vlog-13282) 'mux2_1' already declared in this scope.
+** Error: /afs/cs.wisc.edu/u/v/a/van-der-weide/private/ECE552/assigns-NoahMattV/hw/hw4/hw4_1/barrelShifter.v(64): (vlog-13282) 'mux2_1' already declared in this scope.
+** Error: /afs/cs.wisc.edu/u/v/a/van-der-weide/private/ECE552/assigns-NoahMattV/hw/hw4/hw4_1/barrelShifter.v(65): (vlog-13282) 'mux2_1' already declared in this scope.
+** Error: /afs/cs.wisc.edu/u/v/a/van-der-weide/private/ECE552/assigns-NoahMattV/hw/hw4/hw4_1/barrelShifter.v(66): (vlog-13282) 'mux2_1' already declared in this scope.
+** Error: /afs/cs.wisc.edu/u/v/a/van-der-weide/private/ECE552/assigns-NoahMattV/hw/hw4/hw4_1/barrelShifter.v(67): (vlog-13282) 'mux2_1' already declared in this scope.
+** Error: /afs/cs.wisc.edu/u/v/a/van-der-weide/private/ECE552/assigns-NoahMattV/hw/hw4/hw4_1/barrelShifter.v(68): (vlog-13282) 'mux2_1' already declared in this scope.
+** Error: /afs/cs.wisc.edu/u/v/a/van-der-weide/private/ECE552/assigns-NoahMattV/hw/hw4/hw4_1/barrelShifter.v(69): (vlog-13282) 'mux2_1' already declared in this scope.
+** Error: /afs/cs.wisc.edu/u/v/a/van-der-weide/private/ECE552/assigns-NoahMattV/hw/hw4/hw4_1/barrelShifter.v(70): (vlog-13282) 'mux2_1' already declared in this scope.
+** Error: /afs/cs.wisc.edu/u/v/a/van-der-weide/private/ECE552/assigns-NoahMattV/hw/hw4/hw4_1/barrelShifter.v(72): (vlog-13282) 'opMux' already declared in this scope.
+** Error: /afs/cs.wisc.edu/u/v/a/van-der-weide/private/ECE552/assigns-NoahMattV/hw/hw4/hw4_1/barrelShifter.v(73): (vlog-13282) 'opMux' already declared in this scope.
+** Error: /afs/cs.wisc.edu/u/v/a/van-der-weide/private/ECE552/assigns-NoahMattV/hw/hw4/hw4_1/barrelShifter.v(77): (vlog-13282) 'mux2_1' already declared in this scope.
+** Error: /afs/cs.wisc.edu/u/v/a/van-der-weide/private/ECE552/assigns-NoahMattV/hw/hw4/hw4_1/barrelShifter.v(78): (vlog-13282) 'mux2_1' already declared in this scope.
+** Error: /afs/cs.wisc.edu/u/v/a/van-der-weide/private/ECE552/assigns-NoahMattV/hw/hw4/hw4_1/barrelShifter.v(79): (vlog-13282) 'mux2_1' already declared in this scope.
+** Error: /afs/cs.wisc.edu/u/v/a/van-der-weide/private/ECE552/assigns-NoahMattV/hw/hw4/hw4_1/barrelShifter.v(80): (vlog-13282) 'mux2_1' already declared in this scope.
+** Error: /afs/cs.wisc.edu/u/v/a/van-der-weide/private/ECE552/assigns-NoahMattV/hw/hw4/hw4_1/barrelShifter.v(81): (vlog-13282) 'mux2_1' already declared in this scope.
+** Error: /afs/cs.wisc.edu/u/v/a/van-der-weide/private/ECE552/assigns-NoahMattV/hw/hw4/hw4_1/barrelShifter.v(82): (vlog-13282) 'mux2_1' already declared in this scope.
+** Error: /afs/cs.wisc.edu/u/v/a/van-der-weide/private/ECE552/assigns-NoahMattV/hw/hw4/hw4_1/barrelShifter.v(83): (vlog-13282) 'mux2_1' already declared in this scope.
+** Error: /afs/cs.wisc.edu/u/v/a/van-der-weide/private/ECE552/assigns-NoahMattV/hw/hw4/hw4_1/barrelShifter.v(84): (vlog-13282) 'mux2_1' already declared in this scope.
+** Error: /afs/cs.wisc.edu/u/v/a/van-der-weide/private/ECE552/assigns-NoahMattV/hw/hw4/hw4_1/barrelShifter.v(85): (vlog-13282) 'mux2_1' already declared in this scope.
+** Error: /afs/cs.wisc.edu/u/v/a/van-der-weide/private/ECE552/assigns-NoahMattV/hw/hw4/hw4_1/barrelShifter.v(86): (vlog-13282) 'mux2_1' already declared in this scope.
+** Error: /afs/cs.wisc.edu/u/v/a/van-der-weide/private/ECE552/assigns-NoahMattV/hw/hw4/hw4_1/barrelShifter.v(87): (vlog-13282) 'mux2_1' already declared in this scope.
+** Error: /afs/cs.wisc.edu/u/v/a/van-der-weide/private/ECE552/assigns-NoahMattV/hw/hw4/hw4_1/barrelShifter.v(88): (vlog-13282) 'mux2_1' already declared in this scope.
+** Error: /afs/cs.wisc.edu/u/v/a/van-der-weide/private/ECE552/assigns-NoahMattV/hw/hw4/hw4_1/barrelShifter.v(89): (vlog-13282) 'mux2_1' already declared in this scope.
+** Error: /afs/cs.wisc.edu/u/v/a/van-der-weide/private/ECE552/assigns-NoahMattV/hw/hw4/hw4_1/barrelShifter.v(90): (vlog-13282) 'mux2_1' already declared in this scope.
+** Error: /afs/cs.wisc.edu/u/v/a/van-der-weide/private/ECE552/assigns-NoahMattV/hw/hw4/hw4_1/barrelShifter.v(91): (vlog-13282) 'mux2_1' already declared in this scope.
+** Error: /afs/cs.wisc.edu/u/v/a/van-der-weide/private/ECE552/assigns-NoahMattV/hw/hw4/hw4_1/barrelShifter.v(92): (vlog-13282) 'mux2_1' already declared in this scope.
+** Error: /afs/cs.wisc.edu/u/v/a/van-der-weide/private/ECE552/assigns-NoahMattV/hw/hw4/hw4_1/barrelShifter.v(94): (vlog-13282) 'opMux' already declared in this scope.
+** Error: /afs/cs.wisc.edu/u/v/a/van-der-weide/private/ECE552/assigns-NoahMattV/hw/hw4/hw4_1/barrelShifter.v(95): (vlog-13282) 'opMux' already declared in this scope.
+** Error: /afs/cs.wisc.edu/u/v/a/van-der-weide/private/ECE552/assigns-NoahMattV/hw/hw4/hw4_1/barrelShifter.v(96): (vlog-13282) 'opMux' already declared in this scope.
+** Error: /afs/cs.wisc.edu/u/v/a/van-der-weide/private/ECE552/assigns-NoahMattV/hw/hw4/hw4_1/barrelShifter.v(97): (vlog-13282) 'opMux' already declared in this scope.
+** Error: /afs/cs.wisc.edu/u/v/a/van-der-weide/private/ECE552/assigns-NoahMattV/hw/hw4/hw4_1/barrelShifter.v(101): (vlog-13282) 'mux2_1' already declared in this scope.
+** Error: /afs/cs.wisc.edu/u/v/a/van-der-weide/private/ECE552/assigns-NoahMattV/hw/hw4/hw4_1/barrelShifter.v(102): (vlog-13282) 'mux2_1' already declared in this scope.
+** Error: /afs/cs.wisc.edu/u/v/a/van-der-weide/private/ECE552/assigns-NoahMattV/hw/hw4/hw4_1/barrelShifter.v(103): (vlog-13282) 'mux2_1' already declared in this scope.
+** Error: /afs/cs.wisc.edu/u/v/a/van-der-weide/private/ECE552/assigns-NoahMattV/hw/hw4/hw4_1/barrelShifter.v(104): (vlog-13282) 'mux2_1' already declared in this scope.
+** Error: /afs/cs.wisc.edu/u/v/a/van-der-weide/private/ECE552/assigns-NoahMattV/hw/hw4/hw4_1/barrelShifter.v(105): (vlog-13282) 'mux2_1' already declared in this scope.
+** Error: /afs/cs.wisc.edu/u/v/a/van-der-weide/private/ECE552/assigns-NoahMattV/hw/hw4/hw4_1/barrelShifter.v(106): (vlog-13282) 'mux2_1' already declared in this scope.
+** Error: /afs/cs.wisc.edu/u/v/a/van-der-weide/private/ECE552/assigns-NoahMattV/hw/hw4/hw4_1/barrelShifter.v(107): (vlog-13282) 'mux2_1' already declared in this scope.
+** Error: /afs/cs.wisc.edu/u/v/a/van-der-weide/private/ECE552/assigns-NoahMattV/hw/hw4/hw4_1/barrelShifter.v(108): (vlog-13282) 'mux2_1' already declared in this scope.
+** Error: /afs/cs.wisc.edu/u/v/a/van-der-weide/private/ECE552/assigns-NoahMattV/hw/hw4/hw4_1/barrelShifter.v(109): (vlog-13282) 'mux2_1' already declared in this scope.
+** Error: /afs/cs.wisc.edu/u/v/a/van-der-weide/private/ECE552/assigns-NoahMattV/hw/hw4/hw4_1/barrelShifter.v(110): (vlog-13282) 'mux2_1' already declared in this scope.
+** Error: /afs/cs.wisc.edu/u/v/a/van-der-weide/private/ECE552/assigns-NoahMattV/hw/hw4/hw4_1/barrelShifter.v(111): (vlog-13282) 'mux2_1' already declared in this scope.
+** Error: /afs/cs.wisc.edu/u/v/a/van-der-weide/private/ECE552/assigns-NoahMattV/hw/hw4/hw4_1/barrelShifter.v(112): (vlog-13282) 'mux2_1' already declared in this scope.
+** Error: /afs/cs.wisc.edu/u/v/a/van-der-weide/private/ECE552/assigns-NoahMattV/hw/hw4/hw4_1/barrelShifter.v(113): (vlog-13282) 'mux2_1' already declared in this scope.
+** Error: /afs/cs.wisc.edu/u/v/a/van-der-weide/private/ECE552/assigns-NoahMattV/hw/hw4/hw4_1/barrelShifter.v(114): (vlog-13282) 'mux2_1' already declared in this scope.
+** Error: /afs/cs.wisc.edu/u/v/a/van-der-weide/private/ECE552/assigns-NoahMattV/hw/hw4/hw4_1/barrelShifter.v(115): (vlog-13282) 'mux2_1' already declared in this scope.
+** Error: /afs/cs.wisc.edu/u/v/a/van-der-weide/private/ECE552/assigns-NoahMattV/hw/hw4/hw4_1/barrelShifter.v(116): (vlog-13282) 'mux2_1' already declared in this scope.
+** Error: /afs/cs.wisc.edu/u/v/a/van-der-weide/private/ECE552/assigns-NoahMattV/hw/hw4/hw4_1/barrelShifter.v(118): (vlog-13282) 'opMux' already declared in this scope.
+** Error: /afs/cs.wisc.edu/u/v/a/van-der-weide/private/ECE552/assigns-NoahMattV/hw/hw4/hw4_1/barrelShifter.v(119): (vlog-13282) 'opMux' already declared in this scope.
+** Error: /afs/cs.wisc.edu/u/v/a/van-der-weide/private/ECE552/assigns-NoahMattV/hw/hw4/hw4_1/barrelShifter.v(120): (vlog-13282) 'opMux' already declared in this scope.
+** Error: /afs/cs.wisc.edu/u/v/a/van-der-weide/private/ECE552/assigns-NoahMattV/hw/hw4/hw4_1/barrelShifter.v(121): (vlog-13282) 'opMux' already declared in this scope.
+** Error: /afs/cs.wisc.edu/u/v/a/van-der-weide/private/ECE552/assigns-NoahMattV/hw/hw4/hw4_1/barrelShifter.v(122): (vlog-13282) 'opMux' already declared in this scope.
+** Error: /afs/cs.wisc.edu/u/v/a/van-der-weide/private/ECE552/assigns-NoahMattV/hw/hw4/hw4_1/barrelShifter.v(123): (vlog-13282) 'opMux' already declared in this scope.
+** Error: /afs/cs.wisc.edu/u/v/a/van-der-weide/private/ECE552/assigns-NoahMattV/hw/hw4/hw4_1/barrelShifter.v(124): (vlog-13282) 'opMux' already declared in this scope.
+** Error: /afs/cs.wisc.edu/u/v/a/van-der-weide/private/ECE552/assigns-NoahMattV/hw/hw4/hw4_1/barrelShifter.v(125): (vlog-13282) 'opMux' already declared in this scope.
+** Error: /afs/cs.wisc.edu/u/v/a/van-der-weide/private/ECE552/assigns-NoahMattV/hw/hw4/hw4_1/barrelShifter.v(129): (vlog-13282) 'mux2_1' already declared in this scope.
+** Error: /afs/cs.wisc.edu/u/v/a/van-der-weide/private/ECE552/assigns-NoahMattV/hw/hw4/hw4_1/barrelShifter.v(130): (vlog-13282) 'mux2_1' already declared in this scope.
+** Error: /afs/cs.wisc.edu/u/v/a/van-der-weide/private/ECE552/assigns-NoahMattV/hw/hw4/hw4_1/barrelShifter.v(131): (vlog-13282) 'mux2_1' already declared in this scope.
+** Error: /afs/cs.wisc.edu/u/v/a/van-der-weide/private/ECE552/assigns-NoahMattV/hw/hw4/hw4_1/barrelShifter.v(132): (vlog-13282) 'mux2_1' already declared in this scope.
+** Error: /afs/cs.wisc.edu/u/v/a/van-der-weide/private/ECE552/assigns-NoahMattV/hw/hw4/hw4_1/barrelShifter.v(133): (vlog-13282) 'mux2_1' already declared in this scope.
+** Error: /afs/cs.wisc.edu/u/v/a/van-der-weide/private/ECE552/assigns-NoahMattV/hw/hw4/hw4_1/barrelShifter.v(134): (vlog-13282) 'mux2_1' already declared in this scope.
+** Error: /afs/cs.wisc.edu/u/v/a/van-der-weide/private/ECE552/assigns-NoahMattV/hw/hw4/hw4_1/barrelShifter.v(135): (vlog-13282) 'mux2_1' already declared in this scope.
+** Error: /afs/cs.wisc.edu/u/v/a/van-der-weide/private/ECE552/assigns-NoahMattV/hw/hw4/hw4_1/barrelShifter.v(136): (vlog-13282) 'mux2_1' already declared in this scope.
+** Error: /afs/cs.wisc.edu/u/v/a/van-der-weide/private/ECE552/assigns-NoahMattV/hw/hw4/hw4_1/barrelShifter.v(137): (vlog-13282) 'mux2_1' already declared in this scope.
+** Error: /afs/cs.wisc.edu/u/v/a/van-der-weide/private/ECE552/assigns-NoahMattV/hw/hw4/hw4_1/barrelShifter.v(138): (vlog-13282) 'mux2_1' already declared in this scope.
+** Error: /afs/cs.wisc.edu/u/v/a/van-der-weide/private/ECE552/assigns-NoahMattV/hw/hw4/hw4_1/barrelShifter.v(139): (vlog-13282) 'mux2_1' already declared in this scope.
+** Error: /afs/cs.wisc.edu/u/v/a/van-der-weide/private/ECE552/assigns-NoahMattV/hw/hw4/hw4_1/barrelShifter.v(140): (vlog-13282) 'mux2_1' already declared in this scope.
+** Error: /afs/cs.wisc.edu/u/v/a/van-der-weide/private/ECE552/assigns-NoahMattV/hw/hw4/hw4_1/barrelShifter.v(141): (vlog-13282) 'mux2_1' already declared in this scope.
+** Error: /afs/cs.wisc.edu/u/v/a/van-der-weide/private/ECE552/assigns-NoahMattV/hw/hw4/hw4_1/barrelShifter.v(142): (vlog-13282) 'mux2_1' already declared in this scope.
+** Error: /afs/cs.wisc.edu/u/v/a/van-der-weide/private/ECE552/assigns-NoahMattV/hw/hw4/hw4_1/barrelShifter.v(143): (vlog-13282) 'mux2_1' already declared in this scope.
+** Error: /afs/cs.wisc.edu/u/v/a/van-der-weide/private/ECE552/assigns-NoahMattV/hw/hw4/hw4_1/barrelShifter.v(144): (vlog-13282) 'mux2_1' already declared in this scope.
+** Error: /afs/cs.wisc.edu/u/v/a/van-der-weide/private/ECE552/assigns-NoahMattV/hw/hw4/hw4_1/barrelShifter.v(148): (vlog-13282) 'mux2_1' already declared in this scope.
+** Error: /afs/cs.wisc.edu/u/v/a/van-der-weide/private/ECE552/assigns-NoahMattV/hw/hw4/hw4_1/barrelShifter.v(149): (vlog-13282) 'mux2_1' already declared in this scope.
+** Error: /afs/cs.wisc.edu/u/v/a/van-der-weide/private/ECE552/assigns-NoahMattV/hw/hw4/hw4_1/barrelShifter.v(150): (vlog-13282) 'mux2_1' already declared in this scope.
+** Error: /afs/cs.wisc.edu/u/v/a/van-der-weide/private/ECE552/assigns-NoahMattV/hw/hw4/hw4_1/barrelShifter.v(151): (vlog-13282) 'mux2_1' already declared in this scope.
+** Error: /afs/cs.wisc.edu/u/v/a/van-der-weide/private/ECE552/assigns-NoahMattV/hw/hw4/hw4_1/barrelShifter.v(152): (vlog-13282) 'mux2_1' already declared in this scope.
+** Error: /afs/cs.wisc.edu/u/v/a/van-der-weide/private/ECE552/assigns-NoahMattV/hw/hw4/hw4_1/barrelShifter.v(153): (vlog-13282) 'mux2_1' already declared in this scope.
+** Error: /afs/cs.wisc.edu/u/v/a/van-der-weide/private/ECE552/assigns-NoahMattV/hw/hw4/hw4_1/barrelShifter.v(154): (vlog-13282) 'mux2_1' already declared in this scope.
+** Error: /afs/cs.wisc.edu/u/v/a/van-der-weide/private/ECE552/assigns-NoahMattV/hw/hw4/hw4_1/barrelShifter.v(155): (vlog-13282) 'mux2_1' already declared in this scope.
+** Error: /afs/cs.wisc.edu/u/v/a/van-der-weide/private/ECE552/assigns-NoahMattV/hw/hw4/hw4_1/barrelShifter.v(156): (vlog-13282) 'mux2_1' already declared in this scope.
+** Error: /afs/cs.wisc.edu/u/v/a/van-der-weide/private/ECE552/assigns-NoahMattV/hw/hw4/hw4_1/barrelShifter.v(157): (vlog-13282) 'mux2_1' already declared in this scope.
+** Error: /afs/cs.wisc.edu/u/v/a/van-der-weide/private/ECE552/assigns-NoahMattV/hw/hw4/hw4_1/barrelShifter.v(158): (vlog-13282) 'mux2_1' already declared in this scope.
+** Error: /afs/cs.wisc.edu/u/v/a/van-der-weide/private/ECE552/assigns-NoahMattV/hw/hw4/hw4_1/barrelShifter.v(159): (vlog-13282) 'mux2_1' already declared in this scope.
+** Error: /afs/cs.wisc.edu/u/v/a/van-der-weide/private/ECE552/assigns-NoahMattV/hw/hw4/hw4_1/barrelShifter.v(160): (vlog-13282) 'mux2_1' already declared in this scope.
+** Error: /afs/cs.wisc.edu/u/v/a/van-der-weide/private/ECE552/assigns-NoahMattV/hw/hw4/hw4_1/barrelShifter.v(161): (vlog-13282) 'mux2_1' already declared in this scope.
+** Error: /afs/cs.wisc.edu/u/v/a/van-der-weide/private/ECE552/assigns-NoahMattV/hw/hw4/hw4_1/barrelShifter.v(162): (vlog-13282) 'mux2_1' already declared in this scope.
+** Error: /afs/cs.wisc.edu/u/v/a/van-der-weide/private/ECE552/assigns-NoahMattV/hw/hw4/hw4_1/barrelShifter.v(163): (vlog-13282) 'mux2_1' already declared in this scope.
+
+} {4.0 113.0} {}} /afs/cs.wisc.edu/u/v/a/van-der-weide/private/ECE552/assigns-NoahMattV/hw/hw4/hw4_1/clkrst.v {1 {vlog -work work -stats=none /afs/cs.wisc.edu/u/v/a/van-der-weide/private/ECE552/assigns-NoahMattV/hw/hw4/hw4_1/clkrst.v
+Model Technology ModelSim DE vlog 10.7c Compiler 2018.08 Aug 17 2018
+-- Compiling module clkrst
+
+Top level modules:
+	clkrst
+
+} {} {}} /afs/cs.wisc.edu/u/v/a/van-der-weide/private/ECE552/assigns-NoahMattV/hw/hw4/hw4_1/barrelShifter_hier_bench.v {1 {vlog -work work -stats=none /afs/cs.wisc.edu/u/v/a/van-der-weide/private/ECE552/assigns-NoahMattV/hw/hw4/hw4_1/barrelShifter_hier_bench.v
+Model Technology ModelSim DE vlog 10.7c Compiler 2018.08 Aug 17 2018
+-- Compiling module barrelShifter_hier_bench
+
+Top level modules:
+	barrelShifter_hier_bench
+
+} {} {}} /afs/cs.wisc.edu/u/v/a/van-der-weide/private/ECE552/assigns-NoahMattV/hw/hw4/hw4_1/mux2_1.v {1 {vlog -work work -stats=none /afs/cs.wisc.edu/u/v/a/van-der-weide/private/ECE552/assigns-NoahMattV/hw/hw4/hw4_1/mux2_1.v
+Model Technology ModelSim DE vlog 10.7c Compiler 2018.08 Aug 17 2018
+-- Compiling module mux2_1
+
+Top level modules:
+	mux2_1
+
+} {} {}} /afs/cs.wisc.edu/u/v/a/van-der-weide/private/ECE552/assigns-NoahMattV/hw/hw4/hw4_1/barrelShifter_hier.v {1 {vlog -work work -stats=none /afs/cs.wisc.edu/u/v/a/van-der-weide/private/ECE552/assigns-NoahMattV/hw/hw4/hw4_1/barrelShifter_hier.v
+Model Technology ModelSim DE vlog 10.7c Compiler 2018.08 Aug 17 2018
+-- Compiling module barrelShifter_hier
+
+Top level modules:
+	barrelShifter_hier
+
+} {} {}}

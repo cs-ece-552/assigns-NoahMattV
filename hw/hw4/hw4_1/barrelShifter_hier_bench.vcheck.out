@@ -1,0 +1,18 @@
+Line 25: Bad keyword integer
+Line 30: Bad keyword initial
+Line 31: begin without always/case
+Line 37: Bad keyword if
+Line 40: Bad keyword else
+Line 44: Bad keyword posedge
+Line 44: Always without case(x)
+Line 53: Bad keyword negedge
+Line 59: appears to be shifting by non-constant value: Cnt
+Line 61: Bad keyword if
+Line 69: appears to be shifting by non-constant value: Cnt
+Line 71: Bad keyword if
+Line 79: Bad keyword for
+Line 83: appears to be shifting by non-constant value: Cnt
+Line 84: Bad keyword if
+Line 92: appears to be shifting by non-constant value: Cnt
+Line 94: Bad keyword if
+End of file /u/v/a/van-der-weide/private/ECE552/assigns-NoahMattV/hw/hw4/hw4_1/barrelShifter_hier_bench.v. Hash = 1409639433
