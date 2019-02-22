@@ -49,11 +49,11 @@ module alu (A, B, Cin, Op, invA, invB, sign, Out, Zero, Ofl);
 
 	//Barrel Shifter
 	barrelShifter b1(.In(Ai), .Cnt(Bi[3:0]), .Op(Op[1:0]), .Out(b_out));
-	
+
 
 	assign Ai  = invA ? ~A : A;
 	assign Bi  = invB ? ~B : B;
-   	assign Zero = Out & 16'b0000000000000000;
+  assign Zero = ~(Out | 16'b0000000000000000);
 	assign Ofl = sign ? (Out[15] ^ A[15] ^ B[15] ^ cout[15]) : cout[15];
 	assign Out = Op[2] ? a_out : b_out;
 
