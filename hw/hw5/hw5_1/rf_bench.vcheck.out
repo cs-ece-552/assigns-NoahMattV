@@ -1,0 +1,11 @@
+Line 22: Bad keyword integer
+Line 51: Bad keyword initial
+Line 52: begin without always/case
+Line 68: Bad keyword posedge
+Line 89: Bad keyword if
+Line 102: Bad keyword if
+Line 109: Bad keyword if
+Line 110: Bad keyword if
+Line 113: Bad keyword else
+Line 68: Always without case(x)
+End of file /u/v/a/van-der-weide/private/ECE552/assigns-NoahMattV/hw/hw5/hw5_1/rf_bench.v. Hash = 1040903485

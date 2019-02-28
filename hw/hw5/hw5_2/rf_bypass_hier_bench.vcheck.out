@@ -1,0 +1,14 @@
+Line 22: Bad keyword integer
+Line 23: Bad keyword integer
+Line 50: Bad keyword initial
+Line 51: begin without always/case
+Line 69: Bad keyword posedge
+Line 87: Bad keyword if
+Line 104: Bad keyword if
+Line 110: Bad keyword if
+Line 114: Bad keyword if
+Line 119: Bad keyword if
+Line 120: Bad keyword if
+Line 123: Bad keyword else
+Line 69: Always without case(x)
+End of file /u/v/a/van-der-weide/private/ECE552/assigns-NoahMattV/hw/hw5/hw5_2/rf_bypass_hier_bench.v. Hash = -1845250343
