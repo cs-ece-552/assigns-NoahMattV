@@ -9,7 +9,7 @@ module control_hier_bench(/*AUTOARG*/);
    // Beginning of automatic wires (for undeclared instantiated-module outputs)
    wire       err;
    wire       RegWrite, DMemWrite,              // From top of control_hier.v
-              DMemEn, ALUSrc2, PCSrc,           // From top of control_hier.v
+              DMemEn, ALUSrc2, PCSrc, PCImm,    // From top of control_hier.v
               MemToReg, DMemDump, Jump;         // From top of control_hier.v
    wire [1:0] RegDst;                           // From top of control_hier.v
    wire [2:0] SESel;                            // From top of control_hier.v
@@ -39,6 +39,7 @@ module control_hier_bench(/*AUTOARG*/);
                     .DMemEn                       (DMemEn),
                     .ALUSrc2                      (ALUSrc2),
                     .PCSrc                        (PCSrc),
+                    .PCImm                        (PCImm),
                     .MemToReg                     (MemToReg),
                     .DMemDump                     (DMemDump),
                     .Jump                         (Jump),

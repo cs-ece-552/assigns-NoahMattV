@@ -1,0 +1,5 @@
+          //Tests positive and negative number to see if a carry out will be generated.
+0000 c1ec lbi r1, -20 //r1 = -20
+0002 c27f lbi r2, 127 //r2 = 255
+0004 f94c sco r3, r1, r2 //r3 should = 1 a carry out is  generated
+          
