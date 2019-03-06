@@ -28,11 +28,11 @@ module control (/*AUTOARG*/
    input [1:0]  Funct;
 
    // outputs
-   output       err;
-   output       RegWrite, DMemWrite, DMemEn, ALUSrc2, PCSrc,
+   output reg      err;
+   output  reg     RegWrite, DMemWrite, DMemEn, ALUSrc2, PCSrc,
                 PCImm, MemToReg, DMemDump, Jump;
-   output [1:0] RegDst;
-   output [2:0] SESel;
+   output reg [1:0] RegDst;
+   output reg [2:0] SESel;
 
    /* YOUR CODE HERE */
 
