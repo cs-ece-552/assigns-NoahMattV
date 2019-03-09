@@ -38,6 +38,7 @@ module control (/*AUTOARG*/
 
    always @(OpCode or Funct)
     casex ({OpCode, Funct})
+    7'b00011_?? : begin err = 0; RegWrite = 0; DMemWrite = 0; DMemEn = 0; ALUSrc2 = 0; PCSrc = 0; PCImm = 0; MemToReg = 0; DMemDump = 0; Jump = 0; RegDst = 2'b??; SESel = 3'b???; end // Error
     7'b0100?_?? : begin err = 0; RegWrite = 1; DMemWrite = 0; DMemEn = 0; ALUSrc2 = 0; PCSrc = 0; PCImm = 0; MemToReg = 0; DMemDump = 0; Jump = 0; RegDst = 2'b01; SESel = 3'b01?; end // SUBI, ADDI
     7'b0101?_?? : begin err = 0; RegWrite = 1; DMemWrite = 0; DMemEn = 0; ALUSrc2 = 0; PCSrc = 0; PCImm = 0; MemToReg = 0; DMemDump = 0; Jump = 0; RegDst = 2'b01; SESel = 3'b000; end // ANDNI, XORI
     7'b101??_?? : begin err = 0; RegWrite = 1; DMemWrite = 0; DMemEn = 0; ALUSrc2 = 0; PCSrc = 0; PCImm = 0; MemToReg = 0; DMemDump = 0; Jump = 0; RegDst = 2'b01; SESel = 3'b???; end // ROLI, SLLI, RORI, SRLI
