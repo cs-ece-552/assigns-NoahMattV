@@ -4,11 +4,11 @@
 module proc_hier_bench();
 
    /* BEGIN DO NOT TOUCH */
-   
+
    /*AUTOWIRE*/
    // Beginning of automatic wires (for undeclared instantiated-module outputs)
    // End of automatics
-   
+
 
    wire [15:0] PC;
    wire [15:0] Inst;           /* This should be the 15 bits of the FF that
@@ -23,14 +23,14 @@ module proc_hier_bench();
    wire [15:0] MemData;
 
    wire        Halt;         /* Halt executed and in Memory or writeback stage */
-        
+
    integer     inst_count;
    integer     trace_file;
    integer     sim_log_file;
-     
+
 
    proc_hier DUT();
-   
+
 
    initial begin
       $display("Hello world...simulation starting");
@@ -38,7 +38,7 @@ module proc_hier_bench();
       inst_count = 0;
       trace_file = $fopen("verilogsim.trace");
       sim_log_file = $fopen("verilogsim.log");
-      
+
    end
 
    always @ (posedge DUT.c0.clk) begin
@@ -92,7 +92,7 @@ module proc_hier_bench();
 
             $fclose(trace_file);
             $fclose(sim_log_file);
-            
+
             $finish;
          end else begin // if (RegWrite)
             if (MemWrite) begin
@@ -110,9 +110,9 @@ module proc_hier_bench();
                          (inst_count-1),
                          PC );
             end
-         end 
+         end
       end
-      
+
    end
 
    /* END DO NOT TOUCH */
@@ -123,37 +123,37 @@ module proc_hier_bench();
 
    // Edit the example below. You must change the signal
    // names on the right hand side
-    
-   assign PC = DUT.p0.fetch0.pcCurrent;
-   assign Inst = DUT.p0.fetch0.instr;
-   
-   assign RegWrite = DUT.p0.decode0.regFile0.write;
+
+   assign PC = DUT.p0.fetch.PC;
+   assign Inst = DUT.p0.fetch.inst;
+
+   assign RegWrite = DUT.p0.decode.rf0.writeEn;
    // Is register being written, one bit signal (1 means yes, 0 means no)
-   
-   assign WriteRegister = DUT.p0.decode0.regFile0.writeregsel;
+
+   assign WriteRegister = DUT.p0.decode.rf0.writeRegSel;
    // The name of the register being written to. (3 bit signal)
 
-   assign WriteData = DUT.p0.decode0.regFile0.writedata;
+   assign WriteData = DUT.p0.decode.rf0.writeData;
    // Data being written to the register. (16 bits)
-   
-   assign MemRead =  DUT.p0.memory0.memRead;
+
+   assign MemRead =  DUT.p0.memory.DMemEn;
    // Is memory being read, one bit signal (1 means yes, 0 means no)
-   
-   assign MemWrite = (DUT.p0.memory0.memReadorWrite & DUT.p0.memory0.memWrite);
+
+   assign MemWrite = (DUT.p0.memory.DMemEn & DUT.p0.memory.DMemWrite);
    // Is memory being written to (1 bit signal)
-   
-   assign MemAddress = DUT.p0.memory0.aluResult;
+
+   assign MemAddress = DUT.p0.memory.ALUResultIn; //Changed this from ALUResultIn
    // Address to access memory with (for both reads and writes to memory, 16 bits)
-   
-   assign MemData = DUT.p0.memory0.writeData;
+
+   assign MemData = DUT.p0.memory.ReadData2;
    // Data to be written to memory for memory writes (16 bits)
-   
-   assign Halt = DUT.p0.memory0.halt;
+
+   assign Halt = DUT.p0.memory.DMemDump;
    // Is processor halted (1 bit signal)
-   
+
    /* Add anything else you want here */
 
-   
+
 endmodule
 
 // DUMMY LINE FOR REV CONTROL :0:
