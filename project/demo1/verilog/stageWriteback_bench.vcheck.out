@@ -1,0 +1,7 @@
+Line 19: Bad keyword initial
+Line 21: begin without always/case
+Line 23: Bad keyword posedge
+Line 23: Always without case(x)
+Line 27: Bad keyword negedge
+Line 27: Always without case(x)
+End of file /u/v/a/van-der-weide/private/ECE552/assigns-NoahMattV/project/demo1/verilog/stageWriteback_bench.v. Hash = -1879958316

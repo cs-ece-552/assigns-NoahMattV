@@ -1,0 +1,7 @@
+Line 15: Bad keyword initial
+Line 17: begin without always/case
+Line 19: Bad keyword posedge
+Line 19: Always without case(x)
+Line 23: Bad keyword negedge
+Line 23: Always without case(x)
+End of file /u/v/a/van-der-weide/private/ECE552/assigns-NoahMattV/project/demo1/verilog/stageExecute_bench.v. Hash = -2015967227

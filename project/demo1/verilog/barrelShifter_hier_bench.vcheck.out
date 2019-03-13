@@ -1,0 +1,19 @@
+Line 25: Bad keyword integer
+Line 30: Bad keyword initial
+Line 31: begin without always/case
+Line 38: Bad keyword if
+Line 41: Bad keyword else
+Line 45: Bad keyword posedge
+Line 45: Always without case(x)
+Line 54: Bad keyword negedge
+Line 60: appears to be shifting by non-constant value: Cnt
+Line 62: Bad keyword if
+Line 70: appears to be shifting by non-constant value: Cnt
+Line 72: Bad keyword if
+Line 80: appears to be shifting by non-constant value: Cnt
+Line 82: Bad keyword if
+Line 90: appears to be shifting by non-constant value: Cnt
+Line 92: Bad keyword if
+Line 100: Bad keyword for
+Line 104: Bad keyword if
+End of file /u/v/a/van-der-weide/private/ECE552/assigns-NoahMattV/project/demo1/verilog/barrelShifter_hier_bench.v. Hash = -1234154014

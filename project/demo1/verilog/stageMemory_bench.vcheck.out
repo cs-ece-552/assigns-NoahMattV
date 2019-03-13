@@ -1,0 +1,19 @@
+Line 28: Bad keyword initial
+Line 30: begin without always/case
+Line 42: Bad keyword posedge
+Line 44: Bad keyword if
+Line 45: Bad keyword if
+Line 55: Bad keyword posedge
+Line 57: Bad keyword if
+Line 58: Bad keyword if
+Line 68: Bad keyword posedge
+Line 70: Bad keyword if
+Line 81: Bad keyword posedge
+Line 83: Bad keyword if
+Line 84: Bad keyword if
+Line 85: begin without always/case
+Line 91: Bad keyword posedge
+Line 91: Always without case(x)
+Line 95: Bad keyword negedge
+Line 95: Always without case(x)
+End of file /u/v/a/van-der-weide/private/ECE552/assigns-NoahMattV/project/demo1/verilog/stageMemory_bench.v. Hash = -328968375

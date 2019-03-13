@@ -1,0 +1,13 @@
+Line 16: Bad keyword initial
+Line 17: begin without always/case
+Line 27: Bad keyword posedge
+Line 27: Always without case(x)
+Line 34: Bad keyword negedge
+Line 36: Bad keyword if
+Line 37: Bad keyword if
+Line 38: Bad keyword if
+Line 39: Bad keyword if
+Line 43: Bad keyword if
+Line 44: Bad keyword if
+Line 34: Always without case(x)
+End of file /u/v/a/van-der-weide/private/ECE552/assigns-NoahMattV/project/demo1/verilog/alu_1b_bench.v. Hash = 1782200037
